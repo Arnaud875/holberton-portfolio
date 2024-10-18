@@ -1,0 +1,11 @@
+BasedOnStyle: LLVM                      # Utilise un style LLVM comme base, tu peux changer pour "GNU" si nécessaire
+IndentWidth: 4                          # Indentation avec 4 espaces
+ColumnLimit: 100                        # Limite de colonne à 100 caractères
+AllowShortIfStatementsOnASingleLine: false  # Pas de if sur une seule ligne
+BreakBeforeBraces: Allman               # Utiliser le style Allman (accolades sur une nouvelle ligne)
+SpacesBeforeTrailingComments: 2         # Toujours 2 espaces avant les commentaires en fin de ligne
+AlignConsecutiveAssignments: true       # Aligner les affectations pour une meilleure lisibilité
+AlignTrailingComments: true             # Aligner les commentaires en fin de ligne
+PointerAlignment: Left                  # Aligner les pointeurs avec le type (int* p plutôt que int *p)
+SortIncludes: true                      # Trier automatiquement les includes
+SpaceAfterTemplateKeyword: false        # Non applicable en C
